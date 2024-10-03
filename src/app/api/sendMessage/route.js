@@ -5,8 +5,8 @@ import ContactEmailTemplate from '../../components/ContactEmailTemplate';
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: "pratiksagare40@gmail.com",
-        pass: "ughzyqwmqotoqaab",
+        user: process.env.USER",
+        pass: process.env.PASS,
     }
 });
 
