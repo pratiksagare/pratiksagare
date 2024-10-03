@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-regular;
+  src: url(./fonts//Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-medium;
+  src: url(./fonts//Gilroy-Medium.ttf);
+}
+
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy', sans-serif; /* If you're using a custom font */
+  background-color: #f9f9f9; /* Optional, change based on your design */
+  box-sizing: border-box;
+  color: white;
+  background-color: #111;
+  /* border: 1px red solid; */
+
+}
